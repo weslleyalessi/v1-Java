@@ -16,10 +16,10 @@
             }
             alert("CLIQUE EM OK PARA COMEÇAR");
             let nome = prompt("Qual o seu nome?");
-            let peso = prompt(nome + ", qual o seu peso?");
+            let peso = prompt(nome + ",qual o seu peso?");
             let altura = prompt(nome + ",qual a sua altura?");
             let calculo = calcular(peso, altura);
-            let texto = ", seu IMC é";
+            let texto = ", seu IMC é ";
             let imc = calculo.toFixed(2);
             document.write(nome.italics() + texto.bold() + imc.fontcolor("blue"));  
         </script>
