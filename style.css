@@ -1,9 +1,9 @@
 .corpo{
-    background-color: coral;
+    background-color: gray;
 }
 
 .titulo{
-    font-size: 50px;color: white;background: red;text-align: center;
+    font-size: 50px;color: red;background: black;text-align: center;
 }
 
 .texto-imc{
